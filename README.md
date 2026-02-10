@@ -1,17 +1,17 @@
-# 🎯 Polymarket AutoTrader - Longshot Hunter
+# Polymarket AutoTrader - Longshot Hunter
 
 Automated trading bot for [Polymarket](https://polymarket.com), specifically designed to identify and trade "longshot" opportunities (low-priced markets with high potential upside) using a data-driven strategy.
 
-## ✨ Features
+## Features
 
-- **🚀 Automated Market Scanning**: Real-time monitoring of new markets, volume spikes, and mispriced opportunities via Gamma API.
-- **📈 Intelligent Strategy**: Mimics high-performance "Longshot Hunter" strategies, targeting entries under 10¢.
-- **🛡️ Robust Risk Management**: Built-in limits for trade size, daily spending, total exposure, and per-market exposure.
-- **💸 Live & Paper Trading**: Seamlessly switch between risk-free simulation and live execution via Polymarket CLOB.
-- **📱 Telegram Integration**: Instant alerts for discoveries, trades, P&L summaries, and exit signals.
-- **🔄 Hot-Reloading**: Update trading parameters in `config.json` without restarting the bot.
+- **Automated Market Scanning**: Real-time monitoring of new markets, volume spikes, and mispriced opportunities via Gamma API.
+- **Intelligent Strategy**: Mimics high-performance "Longshot Hunter" strategies, targeting entries under 10¢.
+- **Robust Risk Management**: Built-in limits for trade size, daily spending, total exposure, and per-market exposure.
+- **Live & Paper Trading**: Seamlessly switch between risk-free simulation and live execution via Polymarket CLOB.
+- **Telegram Integration**: Instant alerts for discoveries, trades, P&L summaries, and exit signals.
+- **Hot-Reloading**: Update trading parameters in `config.json` without restarting the bot.
 
-## 🛠️ Setup
+## Setup
 
 ### Prerequisites
 - [Rust](https://www.rust-lang.org/tools/install) (latest stable)
@@ -55,7 +55,7 @@ Adjust your strategy settings in `config.json`:
 }
 ```
 
-## 🚀 Usage
+## Usage
 
 Run the bot:
 ```bash
@@ -64,9 +64,9 @@ cargo run
 
 The bot will display a dashboard of your current configuration and start scanning cycles.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This software is for educational purposes only. Cryptocurrency trading involves significant risk. **Use at your own risk.** The developers are not responsible for any financial losses.
 
-## 📜 License
+## License
 MIT License
