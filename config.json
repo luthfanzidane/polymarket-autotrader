@@ -1,0 +1,16 @@
+{
+    "max_price_cents": 10,
+    "min_liquidity_usd": 500,
+    "max_per_trade_usd": 10,
+    "max_daily_spend_usd": 100,
+    "max_open_positions": 50,
+    "max_per_market_usd": 20,
+    "max_total_exposure_usd": 500,
+    "categories": [],
+    "scan_interval_secs": 30,
+    "longshot_scan_interval_secs": 300,
+    "auto_sell_multiplier": 3.0,
+    "partial_sell_multiplier": 2.0,
+    "paper_trading": true,
+    "min_volume_24h": 0
+}
